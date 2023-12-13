@@ -1,0 +1,177 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 472
+  ClientWidth = 680
+  Fill.Color = claTurquoise
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    StyledSettings = [Family]
+    Position.X = 96.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 136.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.FontColor = claDarkblue
+    TextSettings.Trimming = None
+    Text = 'It is your turn player'
+    TabOrder = 0
+  end
+  object Button1: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 112.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    TextSettings.FontColor = claCrimson
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button2: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 224.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    TextSettings.FontColor = claCrimson
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button3: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 336.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    TextSettings.FontColor = claCrimson
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button4: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 112.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    TextSettings.FontColor = claCrimson
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button5: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 224.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    TextSettings.FontColor = claCrimson
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button6: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 336.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    TextSettings.FontColor = claCrimson
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button7: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 112.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    TextSettings.FontColor = claCrimson
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button8: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 224.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    TextSettings.FontColor = claCrimson
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object Button9: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 336.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    TextSettings.FontColor = claCrimson
+    TextSettings.Trimming = None
+    OnClick = ButtonClick
+  end
+  object currentPlayerSymbollLabel: TLabel
+    StyledSettings = [Family]
+    Position.X = 336.000000000000000000
+    Position.Y = 96.000000000000000000
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {04040000000000000004000000}
+    TextSettings.FontColor = claDarkblue
+    TextSettings.Trimming = None
+    Text = 'currentPlayerSymbollLabel'
+    TabOrder = 10
+  end
+  object rezultat: TLabel
+    StyledSettings = [Family, Size, Style]
+    Position.X = 224.000000000000000000
+    Position.Y = 400.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.FontColor = claDarkred
+    TextSettings.Trimming = None
+    Text = 'rezultat'
+    TabOrder = 11
+    object Label3: TLabel
+      Position.X = -128.000000000000000000
+      TextSettings.Trimming = None
+      Text = 'Pobjednik'
+      TabOrder = 4
+    end
+  end
+  object Label2: TLabel
+    StyledSettings = [Family]
+    Position.X = 208.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 168.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 24.000000000000000000
+    TextSettings.Font.StyleExt = {04070000000000000004000000}
+    TextSettings.FontColor = claDeeppink
+    TextSettings.Trimming = None
+    Text = 'Tic Tac Toe'
+    TabOrder = 12
+  end
+end
